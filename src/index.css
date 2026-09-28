@@ -28,6 +28,11 @@ p { color: var(--muted); }
 
 /* Navigation */
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
   min-height: 78px;
   padding: 0.85rem 0;
   background: rgba(6, 61, 43, 0.98) !important;
